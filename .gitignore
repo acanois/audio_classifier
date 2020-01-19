@@ -1,0 +1,8 @@
+Pipfile.lock
+__pycache__
+/data
+.DS_Store
+.ipynb_checkpoints/audio_analyzer-checkpoint.py
+.ipynb_checkpoints/data_explore-checkpoint.ipynb
+.ipynb_checkpoints/data_prep-checkpoint.ipynb
+.vscode/settings.json
