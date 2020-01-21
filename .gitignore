@@ -5,4 +5,4 @@ __pycache__
 .ipynb_checkpoints/audio_analyzer-checkpoint.py
 .ipynb_checkpoints/data_explore-checkpoint.ipynb
 .ipynb_checkpoints/data_prep-checkpoint.ipynb
-.vscode/settings.json
+.vscode/settings.jsons

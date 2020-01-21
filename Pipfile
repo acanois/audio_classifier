@@ -13,6 +13,8 @@ ipykernel = "*"
 keras = "*"
 tensorflow = "*"
 numpy = "*"
+soundfile = "*"
+scikit-image = "*"
 
 [requires]
 python_version = "3.7"

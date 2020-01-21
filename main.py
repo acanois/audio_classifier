@@ -1,6 +1,8 @@
 import os
 import logging
-import audio_analyzer
+import argparse
+
+from audio_tools import spectrogram_builder as sb
 
 def build_image_library():
     data_path = os.path.join('data', 'audio')
@@ -12,7 +14,7 @@ def build_image_library():
                 if file != '.DS_Store':
                     output_path = os.path.join(data_path, folder, file)
                     logger.debug(f"processing {output_path}")
-                    audio_analyzer.create_spectrogram(output_path, folder, file.replace('.wav', '.png'))
+                    sb.create_spectrogram(output_path, folder, file.replace('.wav', '.png'))
 
 def init_logger():
     logger = logging.getLogger(__name__)
